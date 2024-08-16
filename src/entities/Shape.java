@@ -2,7 +2,7 @@ package entities;
 
 import entities.enums.Color;
 
-public class Shape {
+public abstract class Shape {
 	// Atributo
 	private Color color;
 	
@@ -25,5 +25,5 @@ public class Shape {
 	}
 	
 	// Método
-	
+	public abstract double area();
 }
